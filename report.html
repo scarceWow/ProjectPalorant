@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Report Bug - Palorant</title>
+  <link rel="stylesheet" href="report.css" />
+</head>
+<body>
+  <div class="background-image">
+    <img src="IMAGE/bck3.jpeg" alt="Background Image">
+  </div>
+
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="image/giot.png" alt="giot logo" class="logo">
+    </div>
+    <ul class="nav-text">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="agents.html">AGENTS</a></li>
+      <li><a href="maps.html">MAPS</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="report.html">REPORT</a></li>
+    </ul>
+    <div class="burger" id="burger">
+      <div class="line-burger"></div>
+      <div class="line-burger"></div>
+      <div class="line-burger"></div>
+    </div>
+    <div class="nav-overlay">
+      <ul class="nav-text-mobile">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="agents.html">AGENTS</a></li>
+        <li><a href="maps.html">MAPS</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="report.html">REPORT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="form-section">
+    <div class="form-container">
+      <form id="reportForm">
+        <h2>USERNAME</h2>
+        <input type="text" id="username" placeholder="Enter username">
+
+        <h2>E-MAIL</h2>
+        <input type="text" id="email" placeholder="Enter email">
+
+        <h2>SERVER</h2>
+        <input type="text" id="server" placeholder="Enter server [Asian | Brazil | Europe]">
+
+        <h2>DESCRIPTION</h2>
+        <textarea id="description" placeholder="Enter description"></textarea>
+
+        <label class="checkbox">
+          <input type="checkbox">
+          <span>I agree to receive email confirmation</span>
+        </label>
+
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footerlogo">
+      <img src="image/giot.png" alt="Footer Logo">
+    </div>
+    <div class="isifoot">
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="agents.html">AGENTS</a></li>
+        <li><a href="maps.html">MAPS</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="report.html">REPORT</a></li>
+      </ul>
+      <div class="copyright">
+        © Riot Games<br>© 2025 Palorant
+      </div>
+    </div>
+  </footer>
+
+  <script src="report.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MAPS</title>
+  <link rel="stylesheet" href="maps.css"/>
+</head>
+<body>
+  <div class="background-image">
+    <img src="IMAGE/bck2.jpg" alt="Background Image">
+  </div>
+
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="image/giot.png" alt="giot logo" class="logo">
+    </div>
+    <ul class="nav-text">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="agents.html">AGENTS</a></li>
+      <li><a href="maps.html">MAPS</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="report.html">REPORT</a></li>
+    </ul>
+    <div class="burger" id="burger">
+      <div class="line-burger"></div>
+      <div class="line-burger"></div>
+      <div class="line-burger"></div>
+    </div>
+    <div class="nav-overlay">
+      <ul class="nav-text-mobile">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="agents.html">AGENTS</a></li>
+        <li><a href="maps.html">MAPS</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="report.html">REPORT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="slider-container">
+    <div class="slider-wrapper">
+      <div class="slide active">
+        <h1>BREEZE</h1>
+        <img src="IMAGE/breeze.png">
+        <div class="desc">
+          <p>Explore ancient ruins and seaside caves in this tropical paradise. Wide open spaces and long sightlines make range combat crucial, so stay alert and gear up before you relax in the Breeze.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <h1>LOTUS</h1>
+        <img src="IMAGE/lotus.png">
+        <div class="desc">
+          <p>Step into Lotus, a mystical map with three spike sites and unique features like rotating doors and a breakable wall. With endless tactical options, players are encouraged to explore every corner.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <h1>SUNSET</h1>
+        <img src="IMAGE/sunset.png">
+        <div class="desc">
+          <p>Inspired by the streets of Los Angeles, Sunset brings a classic two-site layout with three key lanes. Mechanical doors and tight angles create fast, dynamic fights across the cityscape.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <h1>ICEBOX</h1>
+        <img src="IMAGE/icebox.png">
+        <div class="desc">
+          <p>Fight in the frozen depths of the Kingdom’s excavation site. Snow-covered factories and ziplines create fast-paced vertical battles where movement and map control are key to victory.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <h1>HAVEN</h1>
+        <img src="IMAGE/haven.png"/>
+        <div class="desc">
+          <p>Haven breaks tradition with three spike sites, pushing players to adapt and strategize. Its diverse layouts and fast rotations reward creativity and sharp tactical thinking every round.</p>
+        </div>
+      </div>
+    </div>
+  
+    <a class="prev" onclick="prevSlide()">❮</a>
+    <a class="next" onclick="nextSlide()">❯</a>
+  
+    <div class="dots">
+      <span onclick="goToSlide(0)"></span>
+      <span onclick="goToSlide(1)"></span>
+      <span onclick="goToSlide(2)"></span>
+      <span onclick="goToSlide(3)"></span>
+      <span onclick="goToSlide(4)"></span>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="logofoot">
+      <div class="footerlogo"><img src="image/giot.png" alt="footer logo"/></div>
+    </div>
+    <div class="isifoot">
+      <ul class="list2">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="agents.html">AGENTS</a></li>
+        <li><a href="maps.html">MAPS</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="report.html">REPORT</a></li>
+      </ul>
+      <div class="copyright">
+        ©Riot Games<br/>
+        ©Copyright 2025 Palorant
+      </div>
+    </div>
+  </footer>
+
+  <script src="maps.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palorant</title>
+  <link rel="stylesheet" href="home.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="image/giot.png" alt="giot logo" class="logo">
+    </div>
+    <ul class="nav-text">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="agents.html">AGENTS</a></li>
+      <li><a href="maps.html">MAPS</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="report.html">REPORT</a></li>
+    </ul>
+    <div class="burger" id="burger">
+      <div class="line-burger"></div>
+      <div class="line-burger"></div>
+      <div class="line-burger"></div>
+    </div>
+    <div class="nav-overlay">
+      <ul class="nav-text-mobile">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="agents.html">AGENTS</a></li>
+        <li><a href="maps.html">MAPS</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="report.html">REPORT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="top">
+    <h1 class="title">PALORANT</h1>
+    <div class="agents">
+      <img src="image/agent.png" alt="agent">
+    </div>
+    <div class="cta-section">
+      <a href="agents.html" class="play-btn">PLAY FOR FREE</a>
+    </div>
+  </div>
+
+  <div class="penjelasan">
+    <p class="desc">
+      Palorant is a tactical team shooter that challenges players to combine sharp aim, strategic thinking, and distinct character abilities to outplay their rivals. Featuring a wide roster of agents, ever-changing maps, and intense competitive matches, it offers fast-paced action and limitless replay value.
+    </p>
+  </div>
+
+  <div class="middle">
+    <div class="agent-card">
+      <div class="agent-info">
+        <h1 class="agent-name">OMEN</h1>
+        <p class="agent-desc">
+          A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.
+        </p>
+        <div class="role">
+          <img src="IMAGE/roleOmen.png" alt="Controller Role">
+          <h5>CONTROLLER</h5>
+        </div>
+      </div>
+      <div class="agent-image">
+        <img src="image/best agent.png" alt="Omen">
+      </div>
+      <div class="gameplay-video">
+        <video src="IMAGE/omen.mp4" autoplay loop muted type="video/mp4"></video>
+        <div class="abilities">
+          <h3>SPECIAL ABILITIES</h3>
+          <div class="ability-icons">
+            <img src="IMAGE/omen1.png" alt="Shrouded Step" class="ability-icon" onclick="showVideo('skill1')" >
+            <img src="IMAGE/omen2.png" alt="Paranoia" class="ability-icon" onclick="showVideo('skill2')">
+            <img src="IMAGE/omen3.png" alt="Dark Cover" class="ability-icon" onclick="showVideo('skill3')">
+            <img src="IMAGE/omen4.png" alt="From the Shadows" class="ability-icon"  onclick="showVideo('skill4')">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="logofoot">
+      <div class="footerlogo"><img src="image/giot.png" alt="footer logo"/></div>
+    </div>
+    <div class="isifoot">
+      <ul class="list2">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="agents.html">AGENTS</a></li>
+        <li><a href="maps.html">MAPS</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="report.html">REPORT</a></li>
+      </ul>
+      <div class="copyright">
+        ©Riot Games<br/>
+        ©Copyright 2025 Palorant
+      </div>
+    </div>
+  </footer>
+
+  <script src="home.js"></script>
+</body>
+</html>
